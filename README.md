@@ -61,13 +61,13 @@ python scripts/track_video.py
 #### Smooth Path Plot
 
 ```bash
-python scripts/plot_smooth_paths.py
+python scripts/plot_smooth_path.py
 ```
 
 #### Heatmap Generation
 
 ```bash
-python scripts/generate_heatmap.py
+python scripts/heatmap.py
 ```
 
 ---
