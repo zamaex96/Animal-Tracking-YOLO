@@ -3,7 +3,6 @@ from ultralytics import YOLO
 from pathlib import Path
 
 
-def main():
     # --- MODEL & DATA ---
     model = YOLO('../pre-trained_models/yolov8x.pt')
 
@@ -51,6 +50,3 @@ def main():
     print("Training finished.")
     print(f"Model and results saved to: {results.save_dir}")
 
-
-if __name__ == '__main__':
-    main()
