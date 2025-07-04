@@ -1,4 +1,4 @@
-Here is a clean and properly formatted version of your Markdown documentation:
+
 
 ---
 
