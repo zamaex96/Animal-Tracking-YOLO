@@ -10,9 +10,9 @@ This project uses a custom-trained **YOLOv8** model to detect and track rats in 
 
 <table>
   <tr>
-    <td><img src="rat_paths_plot_smooth.png" width="200"/></td>
-    <td><img src="sample.gif" width="200"/></td>
-    <td><img src="animation.gif" width="200"/></td>
+    <td><img src="rat_paths_plot_smooth.png" width="400"/></td>
+    <td><img src="sample.gif" width="400"/></td>
+    <td><img src="rat_residence_heatmap_v2.png" width="400"/></td>
   </tr>
 </table>
 
