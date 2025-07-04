@@ -2,7 +2,6 @@
 from ultralytics import YOLO
 
 
-def main():
     # Path to your custom trained model weights
     # Make sure to update this path to where your 'best.pt' is located
     model_path = r'C:\BULabAssets\BULabProjects\RatDetectandTrack\scripts\runs\detect\yolov8n_rat_detector\weights\best.pt'
@@ -33,7 +32,3 @@ def main():
     # print(f"\nRunning prediction on a test image: {test_image_path}")
     # results = model.predict(source=test_image_path, save=True)
     # print(f"Prediction results saved in the 'runs/detect/predict' folder.")
-
-
-if __name__ == '__main__':
-    main()
