@@ -1,4 +1,4 @@
-# scripts/track_video.py
+
 import cv2
 from ultralytics import YOLO
 from pathlib import Path
@@ -7,7 +7,6 @@ import numpy as np
 import math
 
 
-def main():
     # --- REAL-WORLD CALIBRATION (in cm) ---
     REAL_WORLD_WIDTH_CM = 30.0
     REAL_WORLD_HEIGHT_CM = 25.0
@@ -123,5 +122,3 @@ def main():
     print("=" * 30)
 
 
-if __name__ == '__main__':
-    main()
