@@ -1,48 +1,75 @@
-# YOLOv8 Real-Time Rat Detection and Tracking
+Here is a clean and properly formatted version of your Markdown documentation:
 
-This project uses a custom-trained YOLOv8 model to detect and track rats in video streams, calculate distance traveled, and generate path visualizations and heatmaps.
+---
 
-## Features
-- Custom object detection with YOLOv8
-- Real-time object tracking with path drawing
-- Post-processing scripts to generate path plots and heatmaps from log files
-- Calculation of real-world distance traveled
+# 🐀 YOLOv8 Real-Time Rat Detection and Tracking
 
-## Setup
+This project uses a custom-trained **YOLOv8** model to detect and track rats in video streams, compute the distance traveled, and generate visual analytics such as path plots and heatmaps.
 
-1. **Clone the repository:**
-   \`\`\`bash
-   git clone https://github.com/zamaex96/Animal-Tracking-YOLO.git
+---
 
-   cd yolo-rat-tracking
-   \`\`\`
+## ✨ Features
 
-2. **Install Git LFS and pull the model:**
-   \`\`\`bash
-   git lfs install
-   git lfs pull
-   \`\`\`
+* 🎯 Custom object detection using YOLOv8
+* 🧭 Real-time tracking with dynamic path drawing
+* 📊 Post-processing: path plots and heatmaps from detection logs
+* 📐 Real-world distance estimation
 
-3. **Create and activate the Conda environment:**
-   \`\`\`bash
-   conda create --name yolo_rats python=3.9 -y
-   conda activate yolo_rats
-   \`\`\`
+---
 
-4. **Install dependencies:**
-   \`\`\`bash
-   pip install ultralytics opencv-python numpy scipy
-   \`\`\`
+## ⚙️ Setup
 
-## Usage
+### 1. Clone the Repository
 
-**Run the main tracking script:**
-\`\`\`bash
+```bash
+git clone https://github.com/zamaex96/Animal-Tracking-YOLO.git
+cd Animal-Tracking-YOLO
+```
+
+### 2. Install Git LFS and Pull the Model
+
+```bash
+git lfs install
+git lfs pull
+```
+
+### 3. Create and Activate the Conda Environment
+
+```bash
+conda create --name yolo_rats python=3.9 -y
+conda activate yolo_rats
+```
+
+### 4. Install Dependencies
+
+```bash
+pip install ultralytics opencv-python numpy scipy
+```
+
+---
+
+## 🚀 Usage
+
+### Run the Main Tracking Script
+
+```bash
 python scripts/track_video.py
-\`\`\`
+```
 
-**Generate visualizations from the log file:**
-\`\`\`bash
+### Generate Post-Processing Visualizations
+
+#### Smooth Path Plot
+
+```bash
 python scripts/plot_smooth_paths.py
+```
+
+#### Heatmap Generation
+
+```bash
 python scripts/generate_heatmap_v2.py
-\`\`\`
+```
+
+---
+
+
