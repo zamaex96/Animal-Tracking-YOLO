@@ -1,0 +1,38 @@
+# Anaconda/Conda environments
+
+/CondaEnvire/
+
+# PyCharm specific files
+.idea/
+*.iws
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset Files (NEVER commit datasets to Git)
+coco_dataset/
+yolo_dataset/
+dataset/
+outputs/
+pre-trained_models/
+rat_path_log/
+
+# Ultralytics YOLO runs and results
+# These are generated outputs, not source code.
+#runs/
+scripts/runs/
+
+# Large output files
+*.mp4
+*.avi
+
+# Trained model files (we will handle these with Git LFS later)
+# For now, let's keep them out of the main commit history.
+# If you decide not to use Git LFS, keep these lines.
+# *.pt
+# *.pth
+
+# OS-generated files
+.DS_Store
+Thumbs.db
