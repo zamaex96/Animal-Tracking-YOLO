@@ -8,6 +8,14 @@ This project uses a custom-trained **YOLOv8** model to detect and track rats in 
 
 ---
 
+<table>
+  <tr>
+    <td><img src="image1.png" width="200"/></td>
+    <td><img src="image2.png" width="200"/></td>
+    <td><img src="animation.gif" width="200"/></td>
+  </tr>
+</table>
+
 ## ✨ Features
 
 * 🎯 Custom object detection using YOLOv8
