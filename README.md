@@ -67,7 +67,7 @@ python scripts/plot_smooth_paths.py
 #### Heatmap Generation
 
 ```bash
-python scripts/generate_heatmap_v2.py
+python scripts/generate_heatmap.py
 ```
 
 ---
