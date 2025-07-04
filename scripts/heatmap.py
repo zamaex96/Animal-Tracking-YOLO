@@ -6,7 +6,7 @@ import csv
 
 
 def draw_color_bar(height, width, colormap):
-    """Creates a color bar legend for the heatmap."""
+
     bar = np.zeros((height, width, 3), dtype=np.uint8)
     for i in range(height):
         # The color is determined by the vertical position
@@ -22,10 +22,7 @@ def draw_color_bar(height, width, colormap):
 
 
 def main():
-    """
-    Generates a high-quality heatmap with clearer, larger hotspots by drawing
-    "heat disks" and blending them with the original video's background.
-    """
+  
     # === 1. CONFIGURATION ===
 
     project_root = Path(__file__).resolve().parents[1]
