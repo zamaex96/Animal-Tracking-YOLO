@@ -12,7 +12,8 @@ This project uses a custom-trained YOLOv8 model to detect and track rats in vide
 
 1. **Clone the repository:**
    \`\`\`bash
-   git clone https://github.com/your-username/yolo-rat-tracking.git
+   git clone https://github.com/zamaex96/Animal-Tracking-YOLO.git
+
    cd yolo-rat-tracking
    \`\`\`
 
