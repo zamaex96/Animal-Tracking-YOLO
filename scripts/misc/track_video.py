@@ -1,4 +1,4 @@
-# scripts/track_video.py
+
 import cv2
 from ultralytics import YOLO
 import random
