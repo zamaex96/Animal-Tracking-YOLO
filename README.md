@@ -53,7 +53,7 @@ pip install ultralytics opencv-python numpy scipy
 ### Run the Main Tracking Script
 
 ```bash
-python scripts/track_video.py
+python scripts/track_and_plot_trail.py
 ```
 
 ### Generate Post-Processing Visualizations
