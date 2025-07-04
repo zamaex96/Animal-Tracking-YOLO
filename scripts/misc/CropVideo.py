@@ -5,18 +5,7 @@ import sys
 
 
 def crop_video_ffmpeg(input_path, output_path, width, height, x_start, y_start):
-    """
-    Crops a video using a direct FFmpeg command. The output video will have the
-    exact dimensions of the crop, with no black bars.
 
-    Args:
-        input_path (str): Path to the input video file.
-        output_path (str): Path to save the cropped video file.
-        width (int): The width of the cropped video.
-        height (int): The height of the cropped video.
-        x_start (int): The x-coordinate of the top-left corner of the crop.
-        y_start (int): The y-coordinate of the top-left corner of the crop.
-    """
     # Check if the input file exists before proceeding
     if not os.path.exists(input_path):
         print(f"Error: Input file not found at '{input_path}'")
