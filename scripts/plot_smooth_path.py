@@ -1,4 +1,4 @@
-# scripts/plot_smooth_paths.py
+
 import cv2
 import numpy as np
 from pathlib import Path
@@ -7,11 +7,6 @@ from collections import defaultdict
 from scipy.interpolate import splprep, splev
 
 
-def main():
-    """
-    Reads a tracking log, fits smooth B-spline curves to the paths,
-    and plots them on a static background.
-    """
     # === 1. CONFIGURATION ===
     # (Configuration section remains the same)
     project_root = Path(__file__).resolve().parents[1]
@@ -95,6 +90,3 @@ def main():
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-
-if __name__ == '__main__':
-    main()
