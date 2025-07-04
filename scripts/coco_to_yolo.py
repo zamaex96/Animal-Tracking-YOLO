@@ -5,13 +5,7 @@ from pathlib import Path
 
 
 def convert_coco_to_yolo(json_path, save_dir):
-    """
-    Converts COCO annotation format to YOLOv5 format.
 
-    Args:
-        json_path (str): Path to the COCO annotations JSON file.
-        save_dir (str): Directory where the YOLO format .txt files will be saved.
-    """
     path = Path(save_dir)
     if not path.exists():
         path.mkdir(parents=True)
@@ -55,11 +49,11 @@ def convert_coco_to_yolo(json_path, save_dir):
 
 if __name__ == '__main__':
     # Define paths
-    coco_train_json = r"C:\BULabAssets\BULabProjects\RatDetectandTrack\coco_dataset\annotations\instances_train.json"
-    coco_val_json = r"C:\BULabAssets\BULabProjects\RatDetectandTrack\coco_dataset\annotations\instances_val.json"
+    coco_train_json = r"C:\RatDetectandTrack\coco_dataset\annotations\instances_train.json"
+    coco_val_json = r"C:\RatDetectandTrack\coco_dataset\annotations\instances_val.json"
 
-    yolo_train_labels_dir = r"C:\BULabAssets\BULabProjects\RatDetectandTrack\yolo_dataset\labels\train"
-    yolo_val_labels_dir = r"C:\BULabAssets\BULabProjects\RatDetectandTrack\yolo_dataset\labels\val"
+    yolo_train_labels_dir = r"C:\RatDetectandTrack\yolo_dataset\labels\train"
+    yolo_val_labels_dir = r"C:\RatDetectandTrack\yolo_dataset\labels\val"
 
     # Run conversion
     print("Converting training annotations...")
