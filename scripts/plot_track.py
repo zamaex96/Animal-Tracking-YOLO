@@ -6,10 +6,6 @@ import csv
 from collections import defaultdict
 
 
-def main():
-    """
-    Reads a tracking log CSV file and plots the paths on a static background image.
-    """
     # === 1. CONFIGURATION ===
 
     # --- INPUT: Path to the CSV log file ---
@@ -90,6 +86,3 @@ def main():
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-
-if __name__ == '__main__':
-    main()
