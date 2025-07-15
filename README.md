@@ -83,9 +83,9 @@ python scripts/heatmap.py
 ---
 ## 📥 Download the Application
 
-**The latest version can be downloaded from the [GitHub Releases page](https://github.com/your-username/yolo-rat-tracking/releases).**
+**The latest version can be downloaded from the [GitHub Releases page](https://github.com/zamaex96/Animal-Tracking-YOLO/releases).**
 
-[![Latest Release](https://img.shields.io/github/v/release/your-username/yolo-rat-tracking)](https://github.com/your-username/yolo-rat-tracking/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/your-username/yolo-rat-tracking)](https://github.com/zamaex96/Animal-Tracking-YOLO/releases/latest/)
 
 ---
 
