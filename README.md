@@ -15,7 +15,9 @@ This project uses a custom-trained **YOLOv8** model to detect and track rats in 
     <td><img src="rat_residence_heatmap_v2.png" width="400"/></td>
   </tr>
 </table>
+
 ##  Application
+
 <table>
   <tr>
     <td><img src="app.jpg" width="1200"/></td>
