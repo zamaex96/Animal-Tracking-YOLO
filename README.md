@@ -85,7 +85,7 @@ python scripts/heatmap.py
 
 **The latest version can be downloaded from the [GitHub Releases page](https://github.com/zamaex96/Animal-Tracking-YOLO/releases).**
 
-[![Latest Release](https://img.shields.io/github/v/release/your-username/yolo-rat-tracking)](https://github.com/zamaex96/Animal-Tracking-YOLO/releases/latest/)
+[![Latest Release](https://img.shields.io/github.com/zamaex96/Animal-Tracking-YOLO)](https://github.com/zamaex96/Animal-Tracking-YOLO/releases/tag/v1.0.0)
 
 ---
 
