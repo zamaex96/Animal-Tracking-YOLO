@@ -80,4 +80,13 @@ python scripts/heatmap.py
 
 ---
 
+---
+## 📥 Download the Application
+
+**The latest version can be downloaded from the [GitHub Releases page](https://github.com/your-username/yolo-rat-tracking/releases).**
+
+[![Latest Release](https://img.shields.io/github/v/release/your-username/yolo-rat-tracking)](https://github.com/your-username/yolo-rat-tracking/releases/latest)
+
+---
+
 
