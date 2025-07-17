@@ -20,7 +20,7 @@ This project uses a custom-trained **YOLOv8** model to detect and track rats in 
 
 <table>
   <tr>
-    <td><img src="app.jpg" width="800"/></td>
+    <td><img src="app.jpg" width="500"/></td>
   </tr>
 </table>
 
